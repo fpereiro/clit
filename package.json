@@ -1,0 +1,21 @@
+{
+   "name": "clit",
+   "version": "1.0.0",
+   "description": "Command line timer.",
+   "main": "clit.js",
+   "author": "Federico Pereiro <fpereiro@gmail.com>",
+   "contributors": ["Federico Pereiro <fpereiro@gmail.com>"],
+   "license": [{
+      "type": "Public Domain",
+      "url": "http://github.com/fpereiro/clit#license"
+   }],
+   "keywords": ["command line", "timer"],
+   "repository" : {
+      "type": "git",
+      "url": "http://github.com/fpereiro/clit.git"
+   },
+   "bugs": {
+      "url": "http://github.com/fpereiro/clit/issues",
+      "email": "fpereiro@gmail.com"
+   }
+}
