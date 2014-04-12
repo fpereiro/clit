@@ -16,7 +16,7 @@ Enter `Ctrl+C` to stop and quit the timer.
 
 ## Source code
 
-The complete source code is contained in `clit.js`. It is about 60 lines long.
+The complete source code is contained in `clit.js`. It is about 70 lines long.
 
 ## License
 

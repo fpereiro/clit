@@ -1,6 +1,6 @@
 {
    "name": "clit",
-   "version": "1.0.0",
+   "version": "1.0.1",
    "description": "Command line timer.",
    "main": "clit.js",
    "author": "Federico Pereiro <fpereiro@gmail.com>",

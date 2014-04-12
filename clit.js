@@ -1,5 +1,5 @@
 /*
-clit - v1.0.0
+clit - v1.0.1
 
 Written by Federico Pereiro (fpereiro@gmail.com) and released into the public domain.
 
@@ -47,7 +47,6 @@ function timerFunction () {
 }
 
 var timer = setInterval (timerFunction, 1000);
-var pause = setInterval (function () {}, 1000);
 
 process.on ('SIGTSTP', function () {
    if (running) {
