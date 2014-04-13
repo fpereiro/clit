@@ -46,6 +46,7 @@ function timerFunction () {
    log (timeFormat (accumulated));
 }
 
+var pause = setInterval (function () {}, 1000);
 var timer = setInterval (timerFunction, 1000);
 
 process.on ('SIGTSTP', function () {
