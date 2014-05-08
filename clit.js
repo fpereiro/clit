@@ -65,6 +65,6 @@ process.on ('SIGTSTP', function () {
 });
 
 process.on ('SIGINT', function () {
-   log ('Stopped after' + timeFormat (accumulated));
+   log ('Stopped after ' + timeFormat (accumulated));
    process.exit ();
 });

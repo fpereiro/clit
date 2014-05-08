@@ -3,6 +3,9 @@
    "version": "1.0.3",
    "description": "Command line timer.",
    "main": "clit.js",
+   "bin": {
+      "clit": "./bin/clit"
+   },
    "author": "Federico Pereiro <fpereiro@gmail.com>",
    "contributors": ["Federico Pereiro <fpereiro@gmail.com>"],
    "license": [{
