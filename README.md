@@ -6,7 +6,7 @@
 
 `npm install clit`
 
-or `npm install clit -g` if you want to use clit as a standalone executable.
+or `[sudo] npm install clit -g` if you want to use clit as a standalone executable.
 
 ## Usage
 
