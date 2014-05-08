@@ -1,7 +1,7 @@
 #!/usr/bin/env node
 
-var path     = require('path'),
-    fs       = require('fs'),
-    clitPath = path.join(path.dirname(fs.realpathSync(__filename)), '../clit');
+var path = require ('path'),
+var fs = require ('fs'),
+var clitPath = path.join (path.dirname (fs.realpathSync (__filename)), '../clit');
 
-require(clitPath);
+require (clitPath);

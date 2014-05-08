@@ -6,9 +6,13 @@
 
 `npm install clit`
 
+or `npm install clit -g` if you want to use clit as a standalone executable.
+
 ## Usage
 
-Run `node clit` to start the timer.
+If you installed clit globally, just run `clit` to start the timer.
+
+If you did not, go to the folder that contains the repo, and run `node clit`.
 
 Enter `Ctrl+Z` to pause the timer, and to unpause it if it's already paused.
 
