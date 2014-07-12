@@ -1,5 +1,5 @@
 /*
-clit - v1.0.5
+clit - v1.0.6
 
 Written by Federico Pereiro (fpereiro@gmail.com) and released into the public domain.
 
@@ -65,7 +65,6 @@ process.on ('SIGTSTP', function () {
 });
 
 process.on ('SIGINT', function () {
-   log ('Stopped after ' + timeFormat (accumulated));
-   process.stdout.write ('\n');
+   log ('Stopped after ' + timeFormat (accumulated) + '\n');
    process.exit ();
 });
